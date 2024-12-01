@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 
 const file: string[] = readFileSync(
-  `${process.cwd()}/src/input_data/dayOne.txt`,
+  `${process.cwd()}/src/input-data/day-one.txt`,
   "utf-8"
 ).split("\n");
 const left: number[] = [];

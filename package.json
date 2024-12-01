@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
       "build": "tsc",
-      "day:one": "tsc && node dist/dayOne.js",
-      "day:one:part:two": "tsc && node dist/dayOnePartTwo.js"
+      "day:one": "tsc && node dist/day-one.js",
+      "day:one:part:two": "tsc && node dist/day-one-part-two.js"
     },
     "keywords": [],
     "author": "",
