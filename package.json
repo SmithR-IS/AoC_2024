@@ -6,7 +6,9 @@
     "scripts": {
       "build": "tsc",
       "day:one": "tsc && node dist/day-one.js",
-      "day:one:part:two": "tsc && node dist/day-one-part-two.js"
+      "day:one:part:two": "tsc && node dist/day-one-part-two.js",
+      "day:two": "tsc && node dist/day-two.js",
+      "day:two:part:two": "tsc && node dist/day-two-part-two.js"
     },
     "keywords": [],
     "author": "",

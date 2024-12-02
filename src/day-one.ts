@@ -18,6 +18,6 @@ right.sort((n1, n2) => n1 - n2);
 
 let rollingTotal = 0;
 left.forEach((item, idx) => {
-  rollingTotal += Math.abs(item - right[idx]);
+  rollingTotal += Math.abs(item - right[idx]!);
 });
 console.log(rollingTotal);

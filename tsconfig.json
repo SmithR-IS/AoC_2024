@@ -1,9 +1,26 @@
 {
-    "compilerOptions": {
-        "module": "CommonJS",
-        "target": "ES6",
-        "sourceMap": true,
-        "outDir": "dist",
-    },
-    "include": ["src/**/*"],
+  "compilerOptions": {
+    /* Base Options: */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    /* If transpiling with TypeScript: */
+    "module": "NodeNext",
+    "outDir": "dist",
+    "sourceMap": true,
+
+    /* If your code doesn't run in the DOM: */
+    "lib": ["es2023"]
+  },
+  "include": ["src/**/*"]
 }
